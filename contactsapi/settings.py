@@ -26,7 +26,14 @@ SECRET_KEY = "django-insecure-&k#f+lsy2c)1b0p2mvmmfb=uxz-v-3!+#y7n(3_4(je(1hon+3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["django-render-example-app.onrender.com", "localhost", "rest-71by.onrender.com"]
+ALLOWED_HOSTS = [
+    "django-render-example-app.onrender.com",
+    "localhost",
+    "rest-71by.onrender.com",
+    "rest-pmy6.onrender.com",
+    ".onrender.com"  # Wildcard for all hosts ending with ".onrender.com"
+]
+
 
 
 
